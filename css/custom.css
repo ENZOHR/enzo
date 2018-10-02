@@ -1,0 +1,145 @@
+/* Add here all your CSS customizations */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400&subset=latin,latin-ext);
+
+.home section.featured {
+	margin:0 auto;
+}
+div.featured-boxes div.featured-box {
+	margin-top:0;
+	margin-bottom:35px;
+}
+div.featured-box a.box-content {
+	display:block;
+}
+div.featured-box a.box-content:hover, div.featured-box a.box-content:hover h4, div.featured-box a.box-content:hover p{
+	text-decoration:none;
+}
+div.featured-box-simple a.box-content{
+	border-color: #00aaff !important;
+}
+div.featured-box-simple i.image-icon{
+	background-color: #00aaff !important;
+}
+div.featured-box-simple h4{
+	color: #00aaff !important;
+}
+.vnch .btn, #lokacija .btn-success{
+	width:100%;
+	margin-bottom:20px;
+}
+.cert4{
+	background-color: #fff !important;
+}
+#lokacija select{
+	width:100%;
+}
+#lokacija .square{
+	margin-bottom:30px;
+}
+.overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:url(../img/loader.gif) no-repeat center center #fff;
+	z-index:100;
+	display:none;
+}
+.over{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,0.8);
+	z-index:10;
+}
+.over.overob{
+	display:none;
+}
+.tab-pane{
+	position:relative;
+}
+.tab-pane h1{
+	text-align:center;
+}
+
+#kvadrati .slider-selection {
+	background: #BABABA;
+}
+#lokacija .slider{
+	width:100% !important;
+	margin-top:15px;
+	margin-bottom:30px;
+}
+
+#lokacija .col-md-6{
+	margin-bottom:30px;
+}
+#lokacija label{
+	margin-top:15px;
+}
+.nav-tabs{
+	visibility:hidden;
+}
+.conf .btn-primary{
+	width:100%;
+}
+.clear{
+	width:100%;
+	height:1px;
+	margin-top:-1px;
+	clear:both;
+	visibility:hidden;
+}
+.mCall.disabled{
+	
+}
+div.featured-box-simple .disabled i.image-icon{
+	background-color:silver !important;
+}
+div.featured-box-simple a.box-content.disabled{
+	border-color:silver !important;
+}
+div.featured-box-simple .disabled h4{
+	color: silver !important;
+}
+.step2{
+	display:none;
+}
+.step2 input.form-control{
+	margin-bottom:20px;
+}
+.step input.btn.confirmPIN{
+	float:right;
+}
+.registracija input, .registracija select{
+	margin-bottom:20px;
+}
+.slider{
+	width:100%;
+}
+.notificationPick.featured-box{
+	text-align:left;padding:0 20px;border-top:1px solid #ececec;
+}
+.notificationPick h1{
+	margin-top:70%;
+	margin-bottom:15px;
+	text-transform:uppercase;
+	font-family:Arial, Verdana, sans-serif;
+	font-size:28px;
+	color:#0088cc;
+	text-align:left;
+	line-height:30px
+}
+
+.featured.lead{
+	font-family: 'Source Sans Pro', sans-serif;
+}	
+@media (max-width: 991px) {
+	.overlay{
+		background:url(../img/loader.gif) no-repeat top center #fff;
+	}
+}
